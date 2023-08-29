@@ -1,0 +1,332 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: sans-serif;
+  overflow: hidden;
+}
+
+#root-master {
+  height: 100%;
+}
+
+ul {
+  list-style: none;
+}
+
+a {
+  text-decoration: none;
+}
+
+a:active,
+a:hover {
+  outline: 0;
+}
+
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+
+// img {
+//   display: block;
+// }
+
+// antd
+.ant-tabs-nav-list {
+  user-select: none;
+}
+
+.editable-cell-value-wrap {
+  height: 21px;
+}
+
+#root .ant-table-content td button + button {
+  margin-left: 5px;
+}
+
+#root .ant-table-content td .ant-btn > .anticon {
+  padding-top: 3px;
+}
+
+body .ant-modal-body,
+#root .ant-modal-body {
+  max-height: 604px;
+  overflow-y: auto;
+}
+
+// 表头居中
+#root .ant-table-small .ant-table-thead > tr > th {
+  text-align: center !important;
+}
+
+#root .ant-space-item {
+  margin-right: 0 !important;
+
+  & + .ant-space-item {
+    margin-left: 8px;
+  }
+}
+
+#root .ant-pagination-options-size-changer.ant-select {
+  margin-right: 0;
+}
+
+.ant-table-pagination.ant-pagination {
+  margin: 4px 0 0;
+}
+.ant-pagination {
+  padding: 0;
+  text-align: right;
+}
+
+#root
+  .ant-input-search
+  > .ant-input-group
+  > .ant-input-group-addon
+  .ant-input-search-button {
+  padding: 0 9px;
+}
+
+#root .ant-breadcrumb-link > span.hover:hover {
+  color: #40a9ff;
+  cursor: pointer;
+}
+
+// 修改密码 modal title 右边对齐的Bug
+#root .ant-modal-title {
+  text-align: left;
+}
+
+.ant-drawer-right .ant-drawer-header,
+.ant-drawer-right .ant-drawer-body {
+  padding: 0;
+}
+
+// 左侧菜单栏
+.ant-menu-sub.ant-menu-inline > .ant-menu-item,
+.ant-menu-vertical > .ant-menu-item,
+.ant-menu-vertical-left > .ant-menu-item,
+.ant-menu-vertical-right > .ant-menu-item,
+.ant-menu-inline > .ant-menu-item,
+.ant-menu-vertical > .ant-menu-submenu > .ant-menu-submenu-title,
+.ant-menu-vertical-left > .ant-menu-submenu > .ant-menu-submenu-title,
+.ant-menu-vertical-right > .ant-menu-submenu > .ant-menu-submenu-title,
+.ant-menu-inline > .ant-menu-submenu > .ant-menu-submenu-title {
+  height: 30px;
+  line-height: 30px;
+}
+.ant-menu-vertical .ant-menu-item,
+.ant-menu-vertical-left .ant-menu-item,
+.ant-menu-vertical-right .ant-menu-item,
+.ant-menu-inline .ant-menu-item,
+.ant-menu-vertical .ant-menu-submenu-title,
+.ant-menu-vertical-left .ant-menu-submenu-title,
+.ant-menu-vertical-right .ant-menu-submenu-title,
+.ant-menu-inline .ant-menu-submenu-title {
+  padding: 0 17px !important;
+}
+.ant-menu-sub.ant-menu-inline > .ant-menu-item {
+  padding: 0 17px 0 41px !important;
+}
+
+.ant-modal .ant-input-number {
+  width: 100%;
+}
+
+body .ant-badge-count,
+body .ant-badge-dot,
+body .ant-badge .ant-scroll-number-custom-component {
+  z-index: 1;
+}
+
+.ant-row.form {
+  height: 40px;
+
+  .ant-col {
+    line-height: 32px;
+    white-space: nowrap;
+  }
+}
+
+.ant-row .ant-col.title {
+  line-height: 32px;
+  white-space: nowrap;
+}
+
+button + button {
+  margin-left: 8px;
+}
+
+.ant-transfer button + button {
+  margin-left: 0;
+}
+
+.ant-modal-root .ant-modal {
+  padding-bottom: 0;
+}
+
+.ant-form-horizontal .ant-form-item:last-child {
+  margin-bottom: 0;
+}
+
+.ant-drawer section {
+  border: 1px solid #e4e7ed;
+  padding: 10px;
+}
+
+.ant-drawer .ant-drawer-body {
+  padding: 24px 8px 8px;
+}
+
+.ant-drawer .ant-drawer-body section {
+  border: 2px solid #ddd;
+  min-height: 40px;
+  padding: 0 8px 8px;
+}
+
+.ant-drawer .ant-drawer-body section + section {
+  margin-top: 20px;
+}
+
+.ant-drawer .ant-drawer-body section h3 {
+  margin-top: -20px;
+  line-height: 40px;
+  margin-left: 20px;
+  margin-bottom: 0;
+  background: #fff;
+  display: block;
+  width: 80px;
+  text-align: center;
+}
+
+.ant-drawer .ant-drawer-body section .ant-row + .ant-row {
+  margin-top: 8px;
+}
+
+.ant-drawer .ant-checkbox-wrapper + .ant-checkbox-wrapper {
+  margin-left: 0;
+}
+
+body .ant-menu-inline,
+body .ant-menu-vertical,
+body .ant-menu-vertical-left {
+  border-right: none;
+}
+
+body .ant-collapse > .ant-collapse-item > .ant-collapse-header {
+  padding: 8px 16px;
+  padding-left: 40px;
+
+  .ant-collapse-arrow {
+    padding: 8px 0;
+  }
+}
+
+body .ant-collapse-content > .ant-collapse-content-box {
+  padding: 8px;
+}
+
+// 垂直居中
+.ant-col.center {
+  display: flex;
+  align-items: center;
+}
+
+.ant-table-small .ant-table-thead > tr > th {
+  background-color: #1890ff;
+  color: #fff;
+}
+
+.ant-table-column-sorter {
+  color: #fff;
+}
+
+.ant-table-thead th.ant-table-column-has-sorters:hover {
+  background: #1890ff;
+}
+
+// body .ant-modal {
+//   top: 50px;
+// }
+
+.ant-tabs-card > .ant-tabs-nav .ant-tabs-tab,
+.ant-tabs-card > div > .ant-tabs-nav .ant-tabs-tab {
+  padding: 9px 16px;
+  background: transparent;
+  border: none;
+  color: #fff;
+}
+
+.ant-tabs-card.ant-tabs-top > .ant-tabs-nav .ant-tabs-tab-active,
+.ant-tabs-card.ant-tabs-top > div > .ant-tabs-nav .ant-tabs-tab-active {
+  background-color: #fff;
+}
+
+.ant-tabs-tab-remove {
+  color: rgba(255, 255, 255, 0.5);
+
+  &:hover {
+    color: #fff;
+  }
+}
+
+.ant-tabs-tab-active .ant-tabs-tab-remove {
+  color: rgba(0, 0, 0, 0.5);
+
+  &:hover {
+    color: #000;
+  }
+}
+
+// modal header border color
+.ant-modal-header,
+.ant-modal-footer {
+  border-color: #ddd;
+}
+
+// 表格样式调整
+// 表格进一步紧凑
+.ant-table.ant-table-small .ant-table-title,
+.ant-table.ant-table-small .ant-table-footer,
+.ant-table.ant-table-small .ant-table-thead > tr > th,
+.ant-table.ant-table-small .ant-table-tbody > tr > td,
+.ant-table.ant-table-small tfoot > tr > th,
+.ant-table.ant-table-small tfoot > tr > td {
+  padding: 3px 8px;
+}
+// 表格按钮 不撑开行高
+.ant-table.ant-table-small .ant-table-tbody > tr > td:last-child {
+  padding: 2px 8px;
+}
+.ant-table-tbody > tr > td {
+  border-color: #ddd;
+}
+
+.ant-btn-success{
+  color: #fff;
+  background-color: #67c23a;
+  border-color: #67c23a;;
+}
+
+.ant-btn-info{
+  color: #fff;
+  background-color: #909399;
+  border-color: #909399;
+}
+
+.ant-btn-success:hover, .ant-btn-success:focus {
+  background: #85ce61;
+  border-color: #85ce61;
+  color: #fff;
+}
+
+.ant-btn-info:hover, .ant-btn-info:focus {
+  background: #a6a9ad;
+  border-color: #a6a9ad;
+  color: #fff;
+}
+
